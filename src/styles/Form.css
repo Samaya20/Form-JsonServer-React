@@ -1,0 +1,44 @@
+.myform {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: powderblue; */
+}
+
+.form-container {
+    width: 70%;
+    height: 100%;
+}
+
+.myform label {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.myform label input {
+    padding: 15px 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.myform input[type=submit] {
+    width: 50% !important;
+    background: rgb(1, 208, 39);
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}

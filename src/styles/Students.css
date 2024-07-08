@@ -1,0 +1,30 @@
+.students {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    background: #4c4c4c;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    overflow-y:scroll ;
+}
+
+.students .student img {
+    width: 100px;
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.students .student {
+    width: 100%;
+    background: #606060;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,16 @@
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  padding: 20px;
+}
