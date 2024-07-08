@@ -10,4 +10,4 @@ npm run dev
 
 2) Əvvəlki terminal açıq qalsın, 2 ci dəfə yeni terminal açıb serveri işə salan komandanı yazın:
 
-json-server --watch api/db.json
+json-server --watch api/db.json --port 3000
