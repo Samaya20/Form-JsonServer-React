@@ -33,7 +33,7 @@
 
 .myform input[type=submit] {
     width: 50% !important;
-    background: rgb(1, 208, 39);
+    background: #01d027;
     padding: 15px 0;
     border: none;
     border-radius: 10px;

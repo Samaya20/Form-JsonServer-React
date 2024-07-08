@@ -14,7 +14,7 @@
 }
 
 .students .student img {
-    width: 100px;
+    width: 20%;
     border-radius: 50%;
     background: #ffffff;
     padding: 15px;
@@ -22,9 +22,20 @@
 
 .students .student {
     width: 100%;
-    background: #606060;
+    background: #d4d4d4;
     border-radius: 10px;
     padding: 10px;
     display: flex;
+    align-items: center;
     gap: 20px;
+}
+
+.students .student .text h1{
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+    font-weight: 400;
+}
+
+.students .student .text h1 span{
+    color: #00518FFF;
 }
